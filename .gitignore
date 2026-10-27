@@ -1,0 +1,38 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Environment & Dependencies
+.venv/
+venv/
+env/
+ENV/
+
+# Private Google Cloud & OAuth credentials (DO NOT COMMIT)
+credentials.json
+client_secret*.json
+token.json
+
+# Local user configurations & personal data
+config.json
+monitor_cache.db
+*.db
+*.sqlite3
+
+# Temporary & Scratch scripts
+test_sched.py
+create_perfect_logo.py
+process_original_logo.py
+_*.ps1
+*.tmp
+*.log
+
+# Windows desktop shortcut artifacts
+*.lnk
+
+# IDE & Editor folders
+.vscode/
+.idea/
+.vs/
